@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Syntax bin/compile <build-dir> <cache-dir>
+
+BUILD_DIR=$1
+
+echo "=====> Printing source version ($SOURCE_VERSION)"
