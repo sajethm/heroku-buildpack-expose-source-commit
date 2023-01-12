@@ -5,3 +5,9 @@
 BUILD_DIR=$1
 
 echo "=====> Printing source version ($SOURCE_VERSION)"
+
+if [ -d "$env_dir" ]; then
+    for e in $(ls $BUILD_DIR); do
+        echo "=====> $e"
+    done
+fi
